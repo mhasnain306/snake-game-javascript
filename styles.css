@@ -1,0 +1,23 @@
+body {
+
+}
+
+.boundary {
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    border: 10px solid lightgreen;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.board-item {
+    width: 48px;
+    height: 48px;
+    margin: 1px;
+    background-color: lightgrey;
+}
+
+#score-div {
+    float: left;
+}
